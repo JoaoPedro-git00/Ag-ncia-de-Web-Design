@@ -1,0 +1,22 @@
+/* estilos reutilizáveis */
+
+@use 'variaveis' as v;
+
+@mixin flex-center($direction: row) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin botao-padrao {
+  padding: v.$espacamento-sm v.$espacamento-lg;
+  border: none;
+  border-radius: v.$radius-padrao;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+

@@ -1,0 +1,24 @@
+/* estilos base como body, tipografia, reset */
+
+@use 'variaveis' as v;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: v.$fonte-principal;
+  background-color: v.$cor-fundo;
+  color: v.$cor-texto;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+

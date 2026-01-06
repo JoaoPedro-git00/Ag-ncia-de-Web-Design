@@ -1,0 +1,36 @@
+/* estrutura geral da página */
+
+@use 'variaveis' as v;
+@use 'mixins' as m;
+
+.page {
+  width: 100%;
+}
+
+.header {
+  @include m.flex-center(column);
+  background: v.$cor-branca;
+  padding: v.$espacamento-lg;
+
+  &__logo {
+    width: 120px;
+    margin-bottom: v.$espacamento-sm;
+  }
+
+  &__subtitle {
+    letter-spacing: 2px;
+    color: v.$cor-secundaria;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    color: v.$cor-primaria;
+  }
+}
+
+.nav {
+  width: 100%;
+}
+
+
+

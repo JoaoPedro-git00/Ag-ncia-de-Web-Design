@@ -1,0 +1,8 @@
+/* arquivo principal que importa demais com @use */ 
+
+@use 'variaveis';
+@use 'mixins';
+@use 'base';
+@use 'layout';
+@use 'componentes';
+
