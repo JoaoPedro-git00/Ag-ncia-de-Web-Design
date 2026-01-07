@@ -68,6 +68,21 @@
   }
 }
 
+/* DEPOIMENTOS */
+
+.testimonials {
+     background: v.$cor-branca;
+     padding: v.$espacamento-md;
+     gap: v.$espacamento-lg;
+
+     &__client{
+      font-size: 1.1rem;
+      margin-top: 2rem;
+     }
+     
+}
+
+
 /* CONTATO */
 .contact {
   padding: v.$espacamento-lg;

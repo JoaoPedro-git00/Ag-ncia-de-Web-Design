@@ -112,6 +112,17 @@ img {
   margin-bottom: 0.25rem;
 }
 
+/* DEPOIMENTOS */
+.testimonials {
+  background: #ffffff;
+  padding: 1rem;
+  gap: 2rem;
+}
+.testimonials__client {
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
 /* CONTATO */
 .contact {
   padding: 2rem;
